@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Behavioral\ChainOfResponsibilityPattern\ChainOfResponsibilityPattern.csproj" />
+    <ProjectReference Include="..\Behavioral\CommandPattern\CommandPattern.csproj" />
+    <ProjectReference Include="..\Behavioral\InterpreterPattern\InterpreterPattern.csproj" />
+    <ProjectReference Include="..\Behavioral\IteratorPattern\IteratorPattern.csproj" />
+    <ProjectReference Include="..\Behavioral\MediatorPattern\MediatorPattern.csproj" />
+    <ProjectReference Include="..\Behavioral\MementoPattern\MementoPattern.csproj" />
+    <ProjectReference Include="..\Behavioral\ObserverPattern\ObserverPattern.csproj" />
+    <ProjectReference Include="..\Behavioral\StatePattern\StatePattern.csproj" />
+    <ProjectReference Include="..\Behavioral\StrategyPattern\StrategyPattern.csproj" />
+    <ProjectReference Include="..\Behavioral\TemplateMethodPattern\TemplateMethodPattern.csproj" />
+    <ProjectReference Include="..\Behavioral\VisitorPattern\VisitorPattern.csproj" />
+    <ProjectReference Include="..\Creational\SingletonPattern\SingletonPattern.csproj" />
+    <ProjectReference Include="..\Creational\FactoryMethodPattern\FactoryMethodPattern.csproj" />
+    <ProjectReference Include="..\Creational\AbstractFactoryPattern\AbstractFactoryPattern.csproj" />
+    <ProjectReference Include="..\Creational\BuilderPattern\BuilderPattern.csproj" />
+    <ProjectReference Include="..\Creational\PrototypePattern\PrototypePattern.csproj" />
+    <ProjectReference Include="..\Structural\AdapterPattern\AdapterPattern.csproj" />
+    <ProjectReference Include="..\Structural\BridgePattern\BridgePattern.csproj" />
+    <ProjectReference Include="..\Structural\CompositePattern\CompositePattern.csproj" />
+    <ProjectReference Include="..\Structural\DecoratorPattern\DecoratorPattern.csproj" />
+    <ProjectReference Include="..\Structural\FacadePattern\FacadePattern.csproj" />
+    <ProjectReference Include="..\Structural\FlyweightPattern\FlyweightPattern.csproj" />
+    <ProjectReference Include="..\Structural\ProxyPattern\ProxyPattern.csproj" />
+  </ItemGroup>
+
+</Project>

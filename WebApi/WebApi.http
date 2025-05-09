@@ -1,0 +1,6 @@
+@WebApi_HostAddress = http://localhost:5278
+
+GET {{WebApi_HostAddress}}/clima/S%C3%A3o%20Paulo
+Accept: application/json
+
+###
